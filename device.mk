@@ -186,6 +186,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.clear_slots_with_set_layer_buffer=true
 
+$(call soong_config_set,stagefright,target_disable_thumbnail_block_model,true)
+
 # Gamebar
 PRODUCT_PACKAGES += \
     GameBar
