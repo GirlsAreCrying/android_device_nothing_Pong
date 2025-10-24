@@ -188,10 +188,6 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 
 $(call soong_config_set,stagefright,target_disable_thumbnail_block_model,true)
 
-# Gamebar
-PRODUCT_PACKAGES += \
-    GameBar
-
 $(call soong_config_set,surfaceflinger,udfps_lib,//$(LOCAL_PATH):libudfps_extension.nothing)
 
 # Health
