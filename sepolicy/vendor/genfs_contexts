@@ -22,6 +22,10 @@ genfscon sysfs /devices/platform/soc/88c000.i2c/i2c-3/3-005a/leds/aw_vibrator   
 genfscon sysfs /class/qcom-battery/wireless_boost_en                            u:object_r:sysfs_powershare:s0
 genfscon sysfs /class/qcom-battery/wls_reverse_status                           u:object_r:sysfs_powershare:s0
 
+# Powerstats
+genfscon sysfs /module/soc_sleep_stats/rpmh_stats/nt_master_stats   u:object_r:sysfs_powerstats:s0
+genfscon sysfs /module/soc_sleep_stats/soc_sleep/nt_rpmh_stats      u:object_r:sysfs_powerstats:s0
+
 # Wakeup
 genfscon sysfs /devices/platform/soc/88c000.i2c/i2c-3/3-005a/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/994000.i2c/i2c-0/0-003a/wakeup u:object_r:sysfs_wakeup:s0
