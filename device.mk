@@ -329,7 +329,9 @@ PRODUCT_PACKAGES += \
     NTSettingsProviderResTarget \
     NTSettingsResTarget \
     NTSystemUIResTarget \
-    NTWifiResTarget
+    NTWifiResTarget \
+    WallpaperPicker2PixelRes \
+    WallpaperPicker2Res
 
 # NCM overlays
 PRODUCT_PACKAGES += \
