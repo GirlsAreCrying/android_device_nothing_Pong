@@ -1,7 +1,7 @@
 # Shebang is intentionally missing - do not run as a script
 
 # Firmware archive settings
-FW_VERSION="Pong_B4.0-251119-1654"
+FW_VERSION="Pong_B4.0-251226-1110"
 FW_BASENAME="${FW_VERSION}-image-firmware"
 FW_ARCHIVE="${FW_BASENAME}.7z"
 FW_URL="https://github.com/spike0en/nothing_archive/releases/download/${FW_VERSION}/${FW_ARCHIVE}"
