@@ -195,6 +195,8 @@ $(call soong_config_set_bool,stagefright,target_disable_thumbnail_block_model,tr
 
 $(call soong_config_set,surfaceflinger,udfps_lib,//$(LOCAL_PATH):libudfps_extension.nothing)
 
+TARGET_HAS_UDFPS := true
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health-service.qti \
